@@ -555,7 +555,13 @@ Bundle-DocURL:
                 <version>${aem.sdk.api}</version>
                 <scope>provided</scope>
             </dependency>
-
+            <!-- https://mvnrepository.com/artifact/com.adobe.aem/uber-jar -->
+            <dependency>
+                <groupId>com.adobe.aem</groupId>
+                <artifactId>uber-jar</artifactId>
+                <version>6.5.0</version>
+                <scope>provided</scope>
+            </dependency>
 
             <!-- Testing -->
             <dependency>

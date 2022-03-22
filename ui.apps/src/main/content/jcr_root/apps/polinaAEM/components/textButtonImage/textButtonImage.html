@@ -1,0 +1,19 @@
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html"
+     data-sly-call="${clientlib.all @ categories='polinaAEM.textButtonImage'}"/>
+
+  <p>My test text that should be green !!</p>
+<h1> ${properties.textfield}</h1>
+
+<sly data-sly-test="${wcmmode.edit}">
+
+    <h4>you are in edit mode</h4>
+
+</sly>
+<div>
+    <img src="${properties.fileReference}"/>
+</div>
+
+<p><a href="${properties.linkTo}">
+    <button>${properties.buttonLabel}</button>
+</a></p>
+
